@@ -3,6 +3,8 @@ import React from "react";
 import { BiShoppingBag } from "react-icons/bi";
 import { FaStar } from "react-icons/fa6";
 
+//This is for comit and check git
+
 interface props {
   title: string;
   image: StaticImageData;
