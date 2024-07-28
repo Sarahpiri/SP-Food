@@ -11,3 +11,13 @@
     md:leading-[4rem] leading-[3rem] text-center;
   }
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+input[type="time"]::-webkit-calendar-picker-indicator::after {
+  filter: invert(1);
+}
