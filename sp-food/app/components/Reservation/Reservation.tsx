@@ -11,7 +11,8 @@ const Reservation = () => {
         {/* {text content} */}
         <div>
           <h1 className="text-[30px] md:text-[40px] lg:text-[50px] text-white font-bold leading-[3rem] md:leading-[4rem]">
-            DO YOU HAVE ANY DINNER PLAN TODAY? RESERVE YOUR TABLE
+            DO YOU HAVE ANY DINNER PLAN TODAY?{" "}
+            <span className="text-red-700">RESERVE</span> YOUR TABLE
           </h1>
           <p className="text-[17px] mt-[1rem] text-white text-opacity-50">
             lorem ipsum dolor sit amet consectetur adipisicing elit.Accusantium
@@ -23,8 +24,12 @@ const Reservation = () => {
               <BiPhone className="w-[1.7rem] h-[1.7rem] text-white" />
             </div>
             <div>
-              <h1 className="text-[25px] text-white font-semibold">Quick order 24/7</h1>
-              <h1 className="text-yellow-300 text-[30px] font-bold">+123 456 7890</h1>
+              <h1 className="text-[25px] text-white font-semibold">
+                Quick order 24/7
+              </h1>
+              <h1 className="text-yellow-300 text-[30px] font-bold">
+                +123 456 7890
+              </h1>
             </div>
           </div>
         </div>
