@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="pt-[5rem] pb-[3rem] bg-gray-900">
       <div
-        className="w-[50%] pb-[2rem] border-b-[2px] border-b-gray-300
+        className="w-[65%] pb-[2rem] border-b-[2px] border-b-gray-300
       border-opacity-50 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[3rem] items-start"
       >
         {/* {1st part} */}
@@ -115,10 +115,10 @@ const Footer = () => {
           </h1>
           <p className="text-white text-[18px]">
             Monday - Friday :{" "}
-            <span className="text-yellow-300"> 8an - 4pm</span>
+            <span className="text-yellow-300"> 8am - 4pm</span>
           </p>
           <p className="text-white text-[18px]">
-            Saturday : <span className="text-yellow-300"> 8an - 12am</span>
+            Saturday : <span className="text-yellow-300"> 8am - 12am</span>
           </p>
           {/* {social icons} */}
           <div className="flex mt-[2rem] items-center space-x-6">
