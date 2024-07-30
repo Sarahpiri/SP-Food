@@ -23,7 +23,7 @@ const Delivery = () => {
             iste praesentium sit in autem velit, voluptates ex dolorum ea
             necessitatibus
           </p>
-          <div className="flex items-center space-x-3 mt-[2rem]">
+          <div className="flex items-center space-x-3 md:mt-[2rem]">
             <RiBikeFill className="w-[2rem] h-[2rem] text-red-700" />
             <h1 className="text-[18px] text-black font-medium">
               Delivery in 30 minutes
